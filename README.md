@@ -62,8 +62,8 @@ The last colour reader it creates (thick smoke, `TOTAL_FLOW_NORMALIZED`, `ALPHA_
 the value baked into its bundle. We checked an RNF-2, an H6-F and a Big Boy (both chimneys),
 and all of them had it.
 
-This was reported upstream to CCL. Even once the template is fixed, locos that were already
-built keep the old value until their authors rebuild them, which is what this mod is for.
+Even if the template is fixed in a future CCL release, locos that were already built keep the
+old value until their authors rebuild them. This mod corrects them at runtime in the meantime.
 
 ## What the mod does
 
