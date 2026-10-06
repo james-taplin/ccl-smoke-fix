@@ -1,0 +1,9 @@
+{
+  "Id": "CCLSmokeFix",
+  "Version": "0.1.0",
+  "DisplayName": "CCL Smoke Fix",
+  "Author": "James",
+  "EntryMethod": "CCLSmokeFix.Main.Load",
+  "ManagerVersion": "0.27.3",
+  "LoadAfter": ["DVCustomCarLoader"]
+}

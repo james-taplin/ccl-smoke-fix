@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CCLSmokeFix</AssemblyName>
+    <RootNamespace>CCLSmokeFix</RootNamespace>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- Passed in by build.ps1: DVRoot, UMMDll, HarmonyDll. -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(DVRoot)\DerailValley_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DV.ThingTypes"><HintPath>$(DVRoot)\DerailValley_Data\Managed\DV.ThingTypes.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DV.Utils"><HintPath>$(DVRoot)\DerailValley_Data\Managed\DV.Utils.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(DVRoot)\DerailValley_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>$(DVRoot)\DerailValley_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(DVRoot)\DerailValley_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityModManager"><HintPath>$(UMMDll)</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(HarmonyDll)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
