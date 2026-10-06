@@ -5,5 +5,8 @@
   "Author": "James",
   "EntryMethod": "CCLSmokeFix.Main.Load",
   "ManagerVersion": "0.27.3",
-  "LoadAfter": ["DVCustomCarLoader"]
+  "LoadAfter": [
+    "DVCustomCarLoader"
+  ],
+  "HomePage": "https://github.com/james-taplin/ccl-smoke-fix"
 }
